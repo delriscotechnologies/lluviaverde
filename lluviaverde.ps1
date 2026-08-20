@@ -1,8 +1,8 @@
 [CmdletBinding()]
 param(
-    [ValidateRange(5, 100)][int]$Density = 42,
-    [ValidateRange(10, 120)][int]$Fps = 60,
-    [ValidateRange(0, 3600)][int]$DurationSeconds = 0
+    [int]$Density = 42,
+    [int]$Fps = 60,
+    [int]$DurationSeconds = 0
 )
 
 Set-StrictMode -Version Latest
