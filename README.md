@@ -1,4 +1,4 @@
-<h1 align="center">lluviaverde</h1>
+<h1 align="center">Lluvia Verde</h1>
 
 <p align="center">
   A smooth Matrix-style green rain effect for PowerShell terminals.
@@ -6,7 +6,7 @@
 
 ---
 
-`lluviaverde` is one PowerShell script that draws animated green digital rain directly in a VT-compatible terminal. It uses the terminal's alternate screen and restores the original screen when it exits normally.
+Lluvia Verde recreates the classic Matrix rain effect: columns of changing letters, numbers, and symbols fall at different speeds, with bright heads and fading green trails. Everything is rendered directly in a VT-compatible PowerShell terminal. The animation uses the alternate screen so it does not overwrite the current terminal view, then restores the original screen and cursor when it exits normally.
 
 ## Quick Start
 
