@@ -18,8 +18,7 @@ cd lluviaverde
 powershell.exe -NoProfile -File .\lluviaverde.ps1
 ```
 
-Press `Esc` to exit. If PowerShell blocks the script, follow your organization's approved execution-policy and code-signing requirements.
-
+Press `Esc` to exit.
 ## Options
 
 ```powershell
@@ -41,4 +40,3 @@ The requested frame rate is a target. Actual smoothness depends on terminal size
 - Does not write files or modify the Windows registry.
 
 See [SECURITY.md](SECURITY.md) for security and vulnerability-reporting guidance.
-
