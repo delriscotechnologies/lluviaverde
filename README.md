@@ -19,11 +19,3 @@ powershell.exe -NoProfile -File .\lluviaverde.ps1
 ```
 
 Press `Esc` to exit.
-
-## Safety and Privacy
-
-- Runs locally and writes only to the active terminal session.
-- Does not use the network, collect credentials, or launch other processes.
-- Does not write files or modify the Windows registry.
-
-See [SECURITY.md](SECURITY.md) for security and vulnerability-reporting guidance.
