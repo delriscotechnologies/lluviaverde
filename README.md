@@ -39,7 +39,6 @@ The requested frame rate is a target. Actual smoothness depends on terminal size
 - Runs locally and writes only to the active terminal session.
 - Does not use the network, collect credentials, or launch other processes.
 - Does not write files or modify the Windows registry.
-- Validates all command-line values before starting the animation.
 
 See [SECURITY.md](SECURITY.md) for security and vulnerability-reporting guidance.
 
