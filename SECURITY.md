@@ -19,7 +19,6 @@ Include the affected version, reproduction steps, expected behavior, actual beha
 - does not access the network
 - does not write files or modify the Windows registry
 - does not launch child processes, request elevation, or evaluate dynamically constructed code
-- validates density, frame-rate, and duration values with fixed ranges
 - restores the cursor and original terminal screen in a `finally` block during normal exit and handled interruption
 
 ## Operational Guidance
