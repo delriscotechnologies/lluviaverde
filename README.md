@@ -26,11 +26,11 @@ Press `Esc` to exit. If PowerShell blocks the script, follow your organization's
 .\lluviaverde.ps1 -Density 55 -Fps 60 -DurationSeconds 30
 ```
 
-| Option | Range | Default | Purpose |
-| --- | ---: | ---: | --- |
-| `Density` | 5-100 | 42 | Percentage of active rain columns |
-| `Fps` | 10-120 | 60 | Target frame rate |
-| `DurationSeconds` | 0-3600 | 0 | Runtime in seconds; `0` runs until `Esc` |
+| Option | Default | Purpose |
+| --- | ---: | --- |
+| `Density` | 42 | Percentage of active rain columns |
+| `Fps` | 60 | Target frame rate |
+| `DurationSeconds` | 0 | Runtime in seconds; `0` runs until `Esc` |
 
 The requested frame rate is a target. Actual smoothness depends on terminal size, terminal renderer, system load, and hardware.
 
