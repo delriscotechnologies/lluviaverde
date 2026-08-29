@@ -37,6 +37,18 @@ Run the script and press Esc to exit.
 .\lluviaverde.ps1
 ```
 
+Run a lighter 20-second animation:
+
+```powershell
+.\lluviaverde.ps1 -Density 30 -Fps 30 -DurationSeconds 20
+```
+
+| Option | Default | Purpose |
+| --- | ---: | --- |
+| `-Density` | `42` | Approximate percentage of active columns |
+| `-Fps` | `60` | Target frames per second |
+| `-DurationSeconds` | `0` | Automatic stop time; `0` runs until Esc |
+
 ## Scope and limits
 
 - Terminal visual effect only.
