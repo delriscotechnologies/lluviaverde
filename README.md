@@ -1,16 +1,16 @@
 <h1 align="center">Lluvia Verde</h1>
 
 <p align="center">
-  A smooth Matrix-style green rain effect for PowerShell terminals.
+  A Matrix-style green rain effect for PowerShell terminals.
 </p>
 
 ---
 
-Lluvia Verde recreates the classic Matrix rain effect: columns of changing letters, numbers, and symbols fall at different speeds, with bright heads and fading green trails. Everything is rendered directly in a VT-compatible PowerShell terminal. The animation uses the alternate screen so it does not overwrite the current terminal view, then restores the original screen and cursor when it exits normally.
+Lluvia Verde renders falling characters directly in a VT-compatible terminal and restores the original screen when the animation exits normally.
 
-## Quick Start
+## Install
 
-You need Windows PowerShell 5.1 or PowerShell 7 and a modern terminal such as Windows Terminal or the Visual Studio Code integrated terminal.
+You need PowerShell and a modern terminal such as Windows Terminal or the Visual Studio Code integrated terminal.
 
 ```powershell
 git clone https://github.com/delriscotechnologies/lluviaverde.git
@@ -18,4 +18,32 @@ cd lluviaverde
 powershell.exe -NoProfile -File .\lluviaverde.ps1
 ```
 
-Press `Esc` to exit.
+## What it does
+
+1. Creates animated columns of letters, numbers, and symbols.
+2. Uses different speeds and trail lengths for each column.
+3. Renders the animation in the terminal alternate screen.
+4. Restores the terminal when the script exits normally.
+
+## Output
+
+Lluvia Verde displays the animation in the terminal. It does not create reports, logs, or other output files.
+
+## Demo
+
+Run the script and press Esc to exit.
+
+```powershell
+.\lluviaverde.ps1
+```
+
+## Scope and limits
+
+- Terminal visual effect only.
+- Requires a terminal with VT escape-sequence support.
+- Does not make network requests or modify system configuration.
+- Terminal behavior can vary between hosts and terminal applications.
+
+## License
+
+No license file is currently included in this repository.
