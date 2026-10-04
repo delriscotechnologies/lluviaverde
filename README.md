@@ -10,54 +10,12 @@ Lluvia Verde renders falling characters directly in a VT-compatible terminal and
 
 ## Install
 
-Use Windows PowerShell 5.1 in a modern terminal such as Windows Terminal or the Visual Studio Code integrated terminal.
-
 ```powershell
 git clone https://github.com/delriscotechnologies/lluviaverde.git
 cd lluviaverde
 .\lluviaverde.ps1
 ```
 
-## What it does
-
-1. Creates animated columns of letters, numbers, and symbols.
-2. Uses different speeds and trail lengths for each column.
-3. Renders the animation in the terminal alternate screen.
-4. Restores the terminal when the animation exits.
-5. Stops cleanly if the terminal is resized.
-
 ## Output
 
-Lluvia Verde displays the animation in the terminal. It does not create reports, logs, or other output files.
-
-## Demo
-
-Run the script and press Esc to exit.
-
-```powershell
-.\lluviaverde.ps1
-```
-
-Run a lighter 20-second animation:
-
-```powershell
-.\lluviaverde.ps1 -Density 30 -Fps 30 -DurationSeconds 20
-```
-
-| Option | Default | Range | Purpose |
-| --- | ---: | ---: | --- |
-| `-Density` | `42` | `1–100` | Approximate percentage of active columns |
-| `-Fps` | `60` | `1–120` | Target frames per second |
-| `-DurationSeconds` | `0` | `0+` | Automatic stop time; `0` runs until Esc |
-
-## Scope and limits
-
-- Terminal visual effect only.
-- Requires a terminal with VT escape-sequence support.
-- Does not make network requests or modify system configuration.
-- Terminal behavior can vary between hosts and terminal applications.
-- Resizing the terminal ends the current animation cleanly.
-
-## License
-
-No license file is currently included in this repository.
+![Lluvia Verde terminal animation](assets/lluviaverde.png)
