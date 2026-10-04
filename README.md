@@ -10,12 +10,12 @@ Lluvia Verde renders falling characters directly in a VT-compatible terminal and
 
 ## Install
 
-You need Windows PowerShell 5.1 or later and a modern terminal such as Windows Terminal or the Visual Studio Code integrated terminal.
+Use Windows PowerShell 5.1 in a modern terminal such as Windows Terminal or the Visual Studio Code integrated terminal.
 
 ```powershell
 git clone https://github.com/delriscotechnologies/lluviaverde.git
 cd lluviaverde
-powershell.exe -NoProfile -File .\lluviaverde.ps1
+.\lluviaverde.ps1
 ```
 
 ## What it does
