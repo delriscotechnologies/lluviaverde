@@ -18,6 +18,4 @@ cd lluviaverde
 
 ## Output
 
-Lluvia Verde displays the animation in the terminal. It does not create reports, logs, or other output files.
-
 ![Lluvia Verde terminal animation](assets/lluviaverde.png)
